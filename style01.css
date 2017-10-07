@@ -1,15 +1,21 @@
 body{
     padding: 5%;
 }
-.btn{
+button{
     padding: 0.3em 0.8em;
-    border: 1px solid #446d88;
-    background: #58a linear-gradient(#77a0bb, #58a);
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border-radius: 0.2em;
-    box-shadow: 0 0.05em 0.25em gray;
+    box-shadow: 0 0.05em 0.25em rgba(0, 0, 0, .5);
     color: white;
-    text-shadow: 0 -0.05em 0.05em #335166;
+    text-shadow: 0 -0.05em 0.05em rgba(0, 0, 0, .5);
     font-size: 125%;  /* 假设父级的字号是16px */
     line-height: 1.5;
     text-decoration: none;
+}
+button.cancel{
+    background-color: #c00;
+}
+button.ok{
+    background-color: #6b0;
 }
