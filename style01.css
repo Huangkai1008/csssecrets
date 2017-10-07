@@ -19,3 +19,7 @@ button.cancel{
 button.ok{
     background-color: #6b0;
 }
+hr{
+    height: .5em;
+    background: currentColor;
+}
